@@ -34,6 +34,7 @@ namespace Restaurant
             Restaurant rest = new Restaurant();
             while (true)
             {
+                Console.Clear();
                 int op = LeerInt(menu);
                 Console.Clear();
                 if (op == 1 || op == 2)

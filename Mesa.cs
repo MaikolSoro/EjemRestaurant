@@ -41,7 +41,7 @@ namespace Restaurant
             }
             return menu + (!total
                 ? "Seleccione una opción o -1 para regresar"
-                : (String.Format("TOTAL: ${0}", t))).PadLeft(40, ' ');
+                : (String.Format("TOTAL.................: ${0}"+ "\nPreciona ENTER para continuar ....", t))).PadLeft(40, ' ');
         }
 
         public int Total()
