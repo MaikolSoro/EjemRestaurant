@@ -8,7 +8,7 @@ namespace Restaurant
 {
      class Producto
     {
-        public String Name { get; set; }
+        public string Name { get; set; }
         public int Price { get; set; }
 
         private int quantity;

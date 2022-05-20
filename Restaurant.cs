@@ -27,7 +27,7 @@ namespace Restaurant
             {
                 int total = mesa.Total();
                 string algo = total <= 0 ? "" : String.Format(" (${0})", total);
-                mesas += String.Format("  {0}{1}\n", mesa, algo);
+                mesas += String.Format("{0}{1}\n", mesa, algo);
             }
             return mesas + "Seleccione una opción";
         }
